@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+/* HERO  */
+.hero {
+    background-image: url(/images/portada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 400px;
+
+}
+
+.hero .container h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50%;
+    text-align: right;
+    }
+
+.hero p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-bottom: 10%;
+  margin-left: 45%;
+  text-align: right;
+  }
+
+  /* ABOUT US*/
+
+  .About {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    height: 180px;
+  }
+
+  .About h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding: 20px;
+
+    }
+
+    .About p {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size:15px;
+        padding: 20px;
+        margin: auto;
+        }
+ 
+        /* TARJETAS  */
+        .col-4 {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size:10px;
+
+        }
+
+        /* Coleccion */
+.bg-light-blue {
+    background-color: rgb(245, 245, 241);
+    padding: 40px 0px;
+
+}
+
+.bg-light-blue h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+}
+
+.bg-light-blue .col h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:15px;
+}
+
+.bg-light-blue img {
+    width: 150px;
+    height: 200px;
+    border-radius: 5px; 
+}
+
+/* responsive */
+
+@media (max-width: 990px) {
+    .hero .container h1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 28px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 50%;
+        text-align: right;
+        }
+
+    .hero p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-bottom: 10%;
+  margin-left: 45%;
+  text-align: right;
+  }
+}
